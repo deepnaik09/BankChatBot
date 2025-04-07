@@ -163,7 +163,7 @@ def handle_chat():
 @app.route("/welcome", methods=["GET"])
 def welcome():
     return jsonify({
-        "response": "Welcome! I'm your virtual finance assistant. Ask me anything about loans, interest rates, UPI, credit scores, investments, or savings.",
+        "response": "Welcome! I'm your virtual banking assistant. Ask me anything about loans, interest rates, UPI, credit scores, investments, or savings.",
         "session_id": str(uuid.uuid4())
     })
 
